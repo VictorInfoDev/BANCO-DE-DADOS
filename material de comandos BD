@@ -1,0 +1,38 @@
+_______________________________________________________________________
+COMANDOS DDL linguagem --> definiçao de dados
+
+           |
+           |
+
+    Modelo físico (CREATE TABLES)
+                  (ALTER TABLE) --> ADD, CHANGE, MODIFY, ALTER E DROP
+
+
+_______________________________________________________________________
+COMANDOS DML --> linguagem de manipulação dados
+
+           |
+           |
+
+       SELECT...FROM...WHERE...
+       INSERT
+       DELETE
+       UPDATE
+_______________________________________________________________________
+COMANDOS GERAIS
+
+TERMINAL: mysql -u nome(aluno) -p
+SHOW DATABASES;
+CREATE DATABASE NOME BASE;
+USE NOMEBASE;
+SHOW TABLES;
+SOURCE /CAMINHO/ARQUIVO.sql
+DROP DATABASE NOME BASE;
+
+_______________________________________________________________________
+COMPLEMENTOS
+
+NOT NULL
+AUTOINCREMENT
+DEFAULT
+UNIQUE
